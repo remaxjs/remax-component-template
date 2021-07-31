@@ -1,0 +1,16 @@
+{
+  "name": "remax-component-template",
+  "scripts": {
+    "build:esm": "remax-component-script build -t esm",
+    "build:ali": "remax-component-script build -t ali",
+    "build:wechat": "remax-component-script build -t wechat"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "remax": "^2.15.2",
+    "@remax/component-scripts": "^2.15.2"
+  },
+  "devDependencies": {
+  }
+}
